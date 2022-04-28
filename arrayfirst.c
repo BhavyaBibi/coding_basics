@@ -9,9 +9,11 @@ int main()
     {
         scanf("%d", &a[i]);
     }
+        printf("enterd the value is :%d ", a[0]);
+
     for (i = 0; i < 5; i++)
     {
-    printf("enterd the value is :%d ", a[0]);
+    printf("%d ", a[i]);
     }
     return 0;
 }
