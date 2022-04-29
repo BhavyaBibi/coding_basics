@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i,limit,sum=0,values[100];
+printf("enter the limit:");
+scanf("%d",&limit);
+printf("enterd the values are:");
+for(i=0; i<limit;i++){
+    scanf("%d",&values[i]);
+}
+for(i=0;i<limit; i++){
+    sum =sum + values[i];
+}
+    printf("sum = %d", sum);
+
+    return 0;
+}
